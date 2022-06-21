@@ -7,9 +7,9 @@ public class Main {
         if (add > 1000) {
             bonus = add / 100;
         }
-        int end=start+add+bonus;
+        int end = start + add + bonus;
 
-        System.out.println("итоговый бонус:" + bonus );
-        System.out.println("Итоговый счет:" + end );
+        System.out.println("итоговый бонус:" + bonus);
+        System.out.println("Итоговый счет:" + end);
     }
 }
